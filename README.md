@@ -8,6 +8,8 @@ Team Members:
 |Pham Quang Binh| 2270663|
 |Nguyen Duc Thuy| 2012158|
 
+Github repository: [https://github.com/ducthuy-ng/hvac-demo](https://github.com/ducthuy-ng/hvac-demo)
+
 ---
 ## Setup infrastructures
 In this tutorial, we will spawn up 2 Docker containers to simulate our system. The containers are:
