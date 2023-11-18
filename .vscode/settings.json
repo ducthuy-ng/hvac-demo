@@ -1,0 +1,20 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/kustomization.json": [
+            "file:///Users/ducth/PycharmProjects/demo-havc/deployments.yaml"
+        ],
+        "kubernetes://schema/v1@persistentvolume": "file:///Users/ducth/PycharmProjects/demo-havc/k8s/postgres-pv.yaml"
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "localhost",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "password"
+        }
+    ]
+}

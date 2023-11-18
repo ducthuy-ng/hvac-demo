@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:15.4-alpine3.18
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - vault_pg_volume:/var/lib/postgresql
+      - ./sql:/docker-entrypoint-initdb.d
+
+  vault:
+    image: hashicorp/vault:1.15.2
+    ports:
+      - 8200:8200
+    command: ["server", "-dev", "-dev-root-token-id=toor"]
+    volumes:
+      - vault_server_volume:/vault
+
+volumes:
+  vault_pg_volume:
+  vault_server_volume:

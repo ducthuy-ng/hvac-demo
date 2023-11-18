@@ -1,0 +1,21 @@
+data:
+    username: ENC[AES256_GCM,data:+fhGOW4OxY8=,iv:+Qo0NCY+RiD64QQwpqz6r7bv6m9wl41TyjjIEx4rm1U=,tag:e+yynPJN7Tgv8mby7CEkOA==,type:str]
+    password: ENC[AES256_GCM,data:xs77xWzs96c=,iv:4opjn8PUnoZquBMkoqJU6KATaqmzTRNQx/9LU8Mn6IU=,tag:pdf0aB1tswRrWc8eZKYo/A==,type:str]
+    server: ENC[AES256_GCM,data:8PU+KhJaEg==,iv:R3CK0MJsMsmD1LIEcWb0HPKQDzZBTXUep9GT6FJaNss=,tag:zG2K/2lnF4tfpfQAQc8f9g==,type:str]
+    port: ENC[AES256_GCM,data:GoBRBw==,iv:8dhTVtm4tfmOhsXkh3fuTUFYys0ptFRVjQH5eKKBaI8=,tag:ipP3vIXQ/XgLoj8NXrHTwA==,type:int]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault:
+        - vault_address: http://127.0.0.1:8200
+          engine_path: sops
+          key_name: team_a
+          created_at: "2023-09-23T07:04:36Z"
+          enc: vault:v1:WpBCv5NWiQs2HqhiwNdT5Cp3qeEPb8WBTXK3q23HPPCB6tEfbFIhH6ysx9dKNq+S0PQDqQjQnZQprj5I
+    age: []
+    lastmodified: "2023-09-23T07:04:36Z"
+    mac: ENC[AES256_GCM,data:FDDkRBIr5rqJCNLdUMkYTVjXtm3PQo7Y+qsBaIXl+qHveS11NvdrxKZGNIkkrf2WocqTC4ZoTaXosQpC/Ro4jICc1BA8a+DdO7QyDE0xoh3T80TbfzXB6sDWgrKvRylRciJpMg0iOsU5kUjQ8EAy6duvWQB3iLu8RAk1Rq9WDOI=,iv:o7hpoG2ge15aon3PgI0NBUl23cRFiFc7ghe1kveoGHs=,tag:gowmYg63SH0cZH1WIYZ9pg==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.8.0
